@@ -1,0 +1,41 @@
+{
+    "name": "Git Configuration File (.gitconfig)",
+    "scopeName": "text.gitconfig",
+    "fileTypes": [".gitconfig"],
+    "patterns": [
+        {
+            "name": "section.gitconfig",
+            "match": "\\[\\w+\\s*(\".*\")?\\]",
+            "captures": {
+                "1": { "name": "section.name.gitconfig" }
+            },
+            "comment": "Configuration sections like [alias], [core], etc."
+        },
+        {
+            "name": "comment.gitconfig",
+            "match": "^(\\s*)(#.*)$",
+            "captures": {
+                "1": { "name": "whitespace.gitconfig" },
+                "2": { "name": "comment.gitconfig" }
+            },
+            "comment": "Comments beginning with #."
+        },
+        {
+            "name": "meta.declaration.gitconfig",
+            "match": "^(\\s*([\"']?)(.+?)(\\2)\\s*(=))?\\s*(([\"']?)(.*?)(\\7))\\s*$",
+            "captures": {
+                "1": { "name": "whitespace.gitconfig" },
+                "2": { "name": "punctuation.quote.gitconfig" },
+                "3": { "name": "meta.property.gitconfig" },
+                "4": { "name": "punctuation.quote.gitconfig" },
+                "5": { "name": "punctuation.equals.gitconfig" },
+                "6": { "name": "meta.value.gitconfig" },
+                "7": { "name": "punctuation.quote.gitconfig" },
+                "8": { "name": "meta.value.gitconfig" },
+                "9": { "name": "punctuation.quote.gitconfig" }
+            },
+            "comment": "Key = value pair in the configuration file."
+        }
+    ],
+    "uuid": "7ddf7525-5056-4235-9423-08a78eca2e8c"
+}

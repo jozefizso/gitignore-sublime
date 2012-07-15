@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Git Configuration File Theme</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FDF6E3</string>
+				<key>caret</key>
+				<string>#000000</string>
+				<key>foreground</key>
+				<string>#586E75</string>
+				<key>invisibles</key>
+				<string>#EAE3C9</string>
+				<key>lineHighlight</key>
+				<string>#EEE8D5</string>
+				<key>selection</key>
+				<string>#eee8d5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#93A1A1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Configuration Section</string>
+			<key>scope</key>
+			<string>section</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#eee8d5</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#6c71c4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Configuration Section Name</string>
+			<key>scope</key>
+			<string>section.name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Property Declaration</string>
+			<key>scope</key>
+			<string>meta.declaration</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D33682</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Property Name</string>
+			<key>scope</key>
+			<string>meta.property</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dc322f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Property Value</string>
+			<key>scope</key>
+			<string>meta.value</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#002b36</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Quote Symbol</string>
+			<key>scope</key>
+			<string>punctuation.quote</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#002b36</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Equals Symbol</string>
+			<key>scope</key>
+			<string>punctuation.equals</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#839496</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Whitespace</string>
+			<key>scope</key>
+			<string>whitespace</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#93a1a1</string>
+			</dict>
+		</dict>
+	</array>
+	<key>uuid</key>
+	<string>fa6c0b6b-449c-4b86-ace4-03c431e5dad2</string>
+</dict>
+</plist>

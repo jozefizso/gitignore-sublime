@@ -1,0 +1,84 @@
+{
+    "uuid": "fa6c0b6b-449c-4b86-ace4-03c431e5dad2", 
+    "name": "Git Configuration File Theme", 
+    "settings": [
+        {
+            "settings": {
+                "caret": "#000000", 
+                "foreground": "#586E75", 
+                "selection": "#eee8d5", 
+                "invisibles": "#EAE3C9", 
+                "lineHighlight": "#EEE8D5", 
+                "background": "#FDF6E3"
+            }
+        }, 
+        {
+            "scope": "comment", 
+            "name": "Comment", 
+            "settings": {
+                "foreground": "#93A1A1",
+                "fontStyle": ""
+            }
+        }, 
+        {
+            "scope": "section", 
+            "name": "Git Configuration Section", 
+            "settings": {
+                "foreground": "#6c71c4",
+                "background": "#eee8d5",
+                "fontStyle": ""
+            }
+        }, 
+        {
+            "scope": "section.name", 
+            "name": "Git Configuration Section Name", 
+            "settings": {
+                "fontStyle": "bold"
+            }
+        }, 
+        {
+            "scope": "meta.declaration", 
+            "name": "Git Property Declaration", 
+            "settings": {
+                "foreground": "#D33682"
+            }
+        },
+        {
+            "scope": "meta.property", 
+            "name": "Git Property Name", 
+            "settings": {
+                "foreground": "#dc322f"
+            }
+        }, 
+        {
+            "scope": "meta.value", 
+            "name": "Git Property Value", 
+            "settings": {
+                "foreground": "#002b36"
+            }
+        }, 
+        {
+            "scope": "punctuation.quote", 
+            "name": "Git Quote Symbol", 
+            "settings": {
+                "foreground": "#002b36"
+            }
+        }, 
+        {
+            "scope": "punctuation.equals", 
+            "name": "Git Equals Symbol", 
+            "settings": {
+                "foreground": "#839496",
+                "fontStyle": ""
+            }
+        }, 
+        {
+            "scope": "whitespace", 
+            "name": "Git Whitespace", 
+            "settings": {
+                "foreground": "#93a1a1",
+                "fontStyle": ""
+            }
+        }
+    ]
+}
